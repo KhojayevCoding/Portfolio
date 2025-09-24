@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  
+}
+
+.divka {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(191, 192, 191);
+  
+}
+
+.ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  
+
+}
+.li{
+  color: white;
+  
+}
+
+.img {
+  animation-duration: 30s;
+  animation-name: aa;
+  animation-iteration-count: infinite;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.img:hover{
+  transition: 0.5s;
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 4px 2px;
+  rotate: 360deg;
+}
+.li:hover{
+  color: black;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+@keyframes aa{
+0%{width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 20px; 
+  rotate: 0deg;
+}5%{transition: 0.5s;
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 4px 2px;
+  rotate: 360deg;}
+  45%{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 4px 2px;
+    rotate: 360deg;
+  }
+  50%{width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px; 
+  rotate: 0deg;}
+
+}
+
+
