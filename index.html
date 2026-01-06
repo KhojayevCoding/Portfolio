@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XojayevCoding | Web Dasturchi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="./XojayevCoding.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <!-- Qora dumaloq fonli minimalist logo -->
+                <div class="logo-circle">
+                    <div class="logo-initial">X</div>
+                </div>
+                <span>XojayevCoding</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#hero" class="nav-link active">Bosh sahifa</a>
+                <a href="#about" class="nav-link">Men haqimda</a>
+                <a href="#skills" class="nav-link">Ko'nikmalar</a>
+                <a href="#projects" class="nav-link">Loyihalar</a>
+                <a href="#contact" class="nav-link">Aloqa</a>
+            </div>
+            
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Junior Web Dasturchi</div>
+                <h1 class="hero-title">Azamat <span class="highlight">Tursunxajayev</span></h1>
+                <p class="hero-subtitle">HTML, CSS, JavaScript, React & Telegram Bot yaratish</p>
+                <p class="hero-description">Minimalistik, toza va optimizatsiyalangan kod yozishga e'tibor qarataman. Har bir loyihamda foydalanuvchi tajribasini mukammallashtiraman.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">
+                        <span>Loyihalarim</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn-secondary">Bog'lanish</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="./salom.jpg" alt="Azamat Tursunxajayev" class="profile-img">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="tech-stack">
+                    <div class="tech-item">HTML</div>
+                    <div class="tech-item">CSS</div>
+                    <div class="tech-item">JS</div>
+                    <div class="tech-item">React</div>
+                    <div class="tech-item">Bot</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Pastga o'ting</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Ma'lumot</div>
+                <h2 class="section-title">Men haqimda</h2>
+                <p class="section-subtitle">15 yoshli web dasturchi, Toshkent</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="about-card-title">Ism</h3>
+                    <p class="about-card-text">Azamat Tursunxajayev Akmalovich</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="about-card-title">Manzil</h3>
+                    <p class="about-card-text">O'zbekiston, Toshkent</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="about-card-title">Texnologiyalar</h3>
+                    <p class="about-card-text">HTML, CSS, JavaScript, React</p>
+                </div>
+                
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="about-card-title">Qo'shimcha</h3>
+                    <p class="about-card-text">Telegram botlar yaratish</p>
+                </div>
+            </div>
+            
+            <div class="about-details">
+                <h3 class="details-title">Maqsad va yondashuv</h3>
+                <p class="details-text">
+                    Men kodni minimalistik, toza va optimizatsiyalangan tarzda yozishga e'tibor beraman. 
+                    Har bir loyihamda foydalanuvchi tajribasini mukammal qilishga intilaman. 
+                    Kelajakda professional web dasturchi bo'lish va jahon miqyosida foydali loyihalar yaratishni maqsad qilganman.
+                </p>
+                <div class="details-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Bajarilgan loyihalar</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Yillik tajriba</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">O'qishga berilganlik</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Ko'nikmalar</div>
+                <h2 class="section-title">Texnik bilimlarim</h2>
+                <p class="section-subtitle">Har bir texnologiyani o'zlashtirish darajam</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">HTML</h3>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="80"></div>
+                    </div>
+                    <p class="skill-desc">Semantik HTML, to'liq responsive dizaynlar</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">CSS</h3>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="70"></div>
+                    </div>
+                    <p class="skill-desc">Flexbox, Grid, animatsiyalar, CSS frameworklar</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <span class="skill-percent">50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="50"></div>
+                    </div>
+                    <p class="skill-desc">DOM manipulyatsiya, asinxron kod, API bilan ishlash</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">React</h3>
+                        <span class="skill-percent">20%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="20"></div>
+                    </div>
+                    <p class="skill-desc">Komponentlar, state boshqaruvi, asosiy hook'lar</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Telegram Bot</h3>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="60"></div>
+                    </div>
+                    <p class="skill-desc">Bot yaratish, API integratsiya, foydalanuvchi interfeysi</p>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3 class="skill-name">Backend asoslari</h3>
+                        <span class="skill-percent">30%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-level="30"></div>
+                    </div>
+                    <p class="skill-desc">Node.js, Express, ma'lumotlar bazasi asoslari</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Portfolio</div>
+                <h2 class="section-title">Mening loyihalarim</h2>
+                <p class="section-subtitle">Yaratgan eng yaxshi ishlarim</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://filmqidirish.netlify.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-category">Web Sayt</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Film Qidirish</h3>
+                        <p class="project-desc">Kinolar haqida ma'lumot olish uchun sayt. API orqali kino ma'lumotlari, reytinglar va tavsiyalar.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <a href="https://filmqidirish.netlify.app/" target="_blank" class="project-btn">
+                            <span>Loyihani ko'rish</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://ipechat.netlify.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-category">Web Ilova</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mini Chat</h3>
+                        <p class="project-desc">Oddiy va minimalist chat ilovasi. Real vaqt rejimida xabarlar almashish imkoniyati.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://ipechat.netlify.app/" target="_blank" class="project-btn">
+                            <span>Loyihani ko'rish</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://khojayevai.netlify.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-category">AI Platforma</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">KhojayevAI</h3>
+                        <p class="project-desc">Mustaqil Sun'iy Intellekt platformasi. Savollarga javob berish va ma'lumotlarni qayta ishlash.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://khojayevai.netlify.app/" target="_blank" class="project-btn">
+                                <span>Web Sayt</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="https://t.me/Xojayev_010_bot" target="_blank" class="project-btn telegram-btn">
+                                <span>Telegram Bot</span>
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://maqsadtracker.netlify.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-category">Produktivlik</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Maqsad Tracker</h3>
+                        <p class="project-desc">Maqsadlar qo'yish va ularni kuzatish uchun vositа. Progressni monitoring qilish imkoniyati.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <a href="https://maqsadtracker.netlify.app/" target="_blank" class="project-btn">
+                            <span>Loyihani ko'rish</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Aloqa</div>
+                <h2 class="section-title">Bog'lanish</h2>
+                <p class="section-subtitle">Loyiha yoki hamkorlik uchun yozing</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Mening kontaktlarim</h3>
+                    <p class="contact-text">Har qanday loyiha, taklif yoki savollar bo'yicha men bilan bog'lanishingiz mumkin.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:tursunxajayevazamat@gmail.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-method-title">Email</div>
+                                <div class="contact-method-value">tursunxajayevazamat@gmail.com</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://t.me/Khojayevc" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-method-title">Telegram</div>
+                                <div class="contact-method-value">@Khojayevc</div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://instagram.com/azamat010__" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <div class="contact-method-title">Instagram</div>
+                                <div class="contact-method-value">@azamat010__</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 class="contact-title">Xabar yuborish</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Ismingiz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email manzilingiz" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Xabaringiz" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <span>Xabarni yuborish</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <!-- Footer logosi ham bir xil -->
+                        <div class="logo-circle">
+                            <div class="logo-initial">X</div>
+                        </div>
+                        <span>XojayevCoding</span>
+                    </a>
+                    <p class="footer-text">Minimalistik dizayn, toza kod va samarali yechimlar.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Tezkor havolalar</h4>
+                    <a href="#hero" class="footer-link">Bosh sahifa</a>
+                    <a href="#about" class="footer-link">Men haqimda</a>
+                    <a href="#skills" class="footer-link">Ko'nikmalar</a>
+                    <a href="#projects" class="footer-link">Loyihalar</a>
+                    <a href="#contact" class="footer-link">Aloqa</a>
+                </div>
+                
+                <div class="footer-social">
+                    <h4 class="footer-title">Ijtimoiy tarmoqlar</h4>
+                    <div class="social-links">
+                        <a href="https://t.me/Khojayevc" target="_blank" class="social-link">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="https://instagram.com/azamat010__" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:tursunxajayevazamat@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 XojayevCoding. Barcha huquqlar himoyalangan.</p>
+                <p class="footer-note">Minimalizm & Samaradorlik</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
